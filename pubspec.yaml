@@ -8,17 +8,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  flutter_bloc: ^4.0.0
   user_repository:
     path: user_repository
-  equatable: ^1.0.0
+  equatable: ^1.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  bloc_test:
-    path: ../../packages/bloc_test
+  bloc_test: ^5.1.0
   mockito: ^4.0.0
 
 flutter:
