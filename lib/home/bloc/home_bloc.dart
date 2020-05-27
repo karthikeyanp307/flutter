@@ -9,12 +9,12 @@ part 'home_state.dart';
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
   @override
-  HomeState get initialState => HomeInitial();
+  HomeState get initialState => HomeState();
 
   @override
   Stream<HomeState> mapEventToState(HomeEvent event) async* {
       if(event is ApplyFilter) {
-        yield HideTextInScreen1(hideText: event.hideText);
+        yield HomeState(hideText: event.hideText);
       }
   }
 }

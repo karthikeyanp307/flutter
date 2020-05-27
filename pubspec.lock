@@ -46,10 +46,10 @@ packages:
   bloc_test:
     dependency: "direct dev"
     description:
-      path: "../../packages/bloc_test"
-      relative: true
-    source: path
-    version: "5.0.0"
+      name: bloc_test
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.1.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -114,9 +114,9 @@ packages:
   flutter_bloc:
     dependency: "direct main"
     description:
-      path: "../../packages/flutter_bloc"
-      relative: true
-    source: path
+      name: flutter_bloc
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "4.0.0"
   flutter_test:
     dependency: "direct dev"
